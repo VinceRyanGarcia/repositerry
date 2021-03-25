@@ -1,7 +1,7 @@
 import './App.css';
 import { Switch, Route, Link } from "react-router-dom"; 
 import Home from './pages/Home'
-import NotHome from './pages/NotHome'
+import Resume from './pages/Resume'
 
 
 function App() {
@@ -9,12 +9,12 @@ function App() {
   <>
     <div className="App">
       <Link to="/">Home  </Link>
-      <Link to="NotHome">  Not Home</Link> 
+      <Link to="Resume">  Resume</Link> 
   </div>
 
     <Switch>
-      <Route path="/NotHome">
-        <NotHome/>
+      <Route path="/Resume">
+        <Resume/>
       </Route>
 
       <Route path="/">
