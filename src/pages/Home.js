@@ -7,6 +7,7 @@ export default function Home(props){
     return(
         
     <>
+    <Header></Header>
    <Img2>
     <center><Img1 src={banner}/> </center>
         </Img2>
