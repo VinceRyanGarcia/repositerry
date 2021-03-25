@@ -18,26 +18,16 @@ export default function Home(props){
        
     </AboutMe>
     <Box>
-    <h1>work experience, pls hire me.</h1>
-    i r noob coder boy
-<h3>Loot Create - Event Manager</h3>
-<li>Managed support staff of 10 during industry events such as E3, Anime Expo, SDCC and PAX West</li>
-<li>Assisted in production of trade shows from booth design, shipping and handling and marketing materials</li>
-<li>Worked with vendors to arrange shipment of inventory to and from events</li>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed porttitor tortor. Suspendisse vulputate massa et purus dapibus venenatis. Vestibulum ac tempor lectus, et interdum sem. In tempor efficitur metus ut tempus. Nullam quis nisi id nunc luctus malesuada sit amet iaculis ipsum. Vivamus dapibus libero sit amet quam posuere, vel lobortis elit vulputate. Phasellus enim diam, finibus fringilla faucibus et, faucibus eget eros. Vestibulum pretium vulputate sem, vitae finibus nulla tincidunt non. Cras eget sagittis nisl.
 
-<h3>Konami Digital Entertainment Inc. - Sales and Organized Play Coordinator</h3>
-<li>Crafted and executed on-site event activations at industry tradeshows</li>
-<li>Worked with Manufactures overseas to produce Yu-Gi-Oh! branded products created to assist in distributor sales</li>
-<li>Managed the implementation of B2B online storefront and maintained inventory of products.</li>
-<li>Worked directly with Tournament Store Liaison to assist over 1000 Official Tournament Stores</li>
+Etiam sit amet interdum dolor. Mauris faucibus dapibus elementum. Ut nec fermentum lacus. Sed imperdiet felis nec cursus tempus. Fusce vel aliquam nisl. Vestibulum tempor, velit sed ornare rhoncus, odio diam auctor sem, non maximus lacus arcu vitae lectus. Donec porta a libero id lacinia. Etiam sed pretium tellus. Nullam enim nulla, egestas commodo justo id, elementum dapibus leo. Sed vestibulum metus non augue venenatis, ac lacinia velit tempor.
 
-<h3>Konami Digital Entertainment Inc. - Associate Social Media Lead</h3>
-<li>Collaborated with global team responsible for 12 video game brands including METAL GEAR SOLID, Pro Evolution Soccer and Silent Hill</li>
-<li>Grew social channels by +215% from 12 million to 33 million during tenure.</li>
-<li>Identified key YouTubers and Twitch streamers to partner with for the launch of Yu-Gi-Oh! Millenium Duels.</li>
-<li>Desgined graphics with Adobe Creative Cloud apps following strict brand guidelines for Social Media and Web</li>
-<li>Created #BombermanRolled mobile campaign that generated 5.2 million Twitter impressions, 26% engagement and 125k downloads for day one launch</li>
-        </Box>
+Curabitur sagittis faucibus porta. Ut vitae consequat libero, non accumsan orci. Nam at mi sed lacus pharetra rutrum. Vestibulum et condimentum tortor. Maecenas ac leo diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel rhoncus quam. Morbi arcu mi, euismod vel ligula non, pharetra lacinia quam. Cras id orci non tortor vulputate tempor at nec ante. Aliquam vestibulum volutpat vestibulum. Integer orci mauris, posuere quis finibus sed, bibendum nec nisi.
+
+Aliquam gravida risus at sodales mollis. Morbi ultricies pharetra dui ac imperdiet. Nullam eleifend sapien at diam feugiat, sit amet tempus libero imperdiet. Cras vulputate, libero a iaculis condimentum, erat nisi cursus ligula, eu porttitor tellus eros at felis. In a enim nec mi vestibulum maximus a at magna. Integer at massa mi. Integer consequat lorem mattis nibh tincidunt, ullamcorper iaculis quam efficitur. Donec molestie elit est, blandit pretium sem vehicula ut. Suspendisse tristique odio ac aliquet pulvinar. Ut lacinia ut nunc vel laoreet.
+
+Duis in enim ut erat mollis cursus. Ut aliquet maximus elit, sit amet ultrices elit molestie et. Etiam accumsan pharetra massa sit amet dictum. Duis vel mi sit amet purus consectetur imperdiet. Quisque viverra suscipit congue. Integer hendrerit velit lacus, ultrices sollicitudin ante iaculis vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam maximus bibendum lectus id dapibus. Duis quam erat, elementum accumsan luctus eu, tempor nec massa. Duis ac mauris ac justo sagittis efficitur id imperdiet urna. Etiam sed scelerisque orci.
+    </Box>
         
     </Content>
     </>    
@@ -57,6 +47,7 @@ const AboutMe = styled.div`
     color: black;
     a{
     margin-right:2px;
+    text-decoration:none;
     }
     
 `
@@ -70,11 +61,13 @@ const Content = styled.div`
         color:black;
     }
 
-`
+`   
 const Box = styled.div`
     flex-flow: column wrap;
     justify-content: center;
     border: 1px solid black;
     background-color:lightgrey;
     height:100vh;
+    margin-left:20px;
+    margin-right:20px;
 `
