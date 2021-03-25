@@ -14,6 +14,7 @@ export default function Resume(props){
     <AboutMe>
        <a href="https://www.linkedin.com/in/vlnce" rel="noreferrer" target="_blank">linkedin</a>  
        <a href="https://github.com/vinceryangarcia" rel="noreferrer" target="_blank">github</a>  
+       <a href="https://behance.net/vlnce" rel="noreferrer" target="_blank">behance</a>  
        <a href="https://www.twitter.com/vlnce" rel="noreferrer" target="_blank">twitter</a>  
        
     </AboutMe>
@@ -77,4 +78,5 @@ const Box = styled.div`
     border: 1px solid black;
     background-color:lightgrey;
     height:100vh;
+    width:90%;
 `
