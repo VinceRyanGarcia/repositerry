@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-import lol from '../images/lol.jpg';
 import snake from '../images/snake.png';
 import pt from '../images/pt.png'
 import a from '../images/a.png'
@@ -13,20 +12,20 @@ export default function Notes(props){
     return(     
     <>
         <Content>
-            <img src={a}></img>
-            <img src={b}></img>
-            <img src={c}></img>
-            <img src={d}></img>
+            <img src={a} alt="a"></img>
+            <img src={b} alt="b"></img>
+            <img src={c} alt="c"></img>
+            <img src={d} alt="d"></img>
         </Content>
         <Content>
-            <img src={snake}></img>
+            <img src={snake} alt="snake"></img>
             <p> 
                 Quick Photoshop of Gabe Newell's head on Snake's body.<br></br>
                 Created in reaction to Metal Gear Solid's release on Steam
             </p>    
         </Content>
         <Content>
-            <img src={pt}></img>
+            <img src={pt} alt="pt"></img>
             <p>
                 Testing
             </p>
