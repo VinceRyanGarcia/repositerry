@@ -59,7 +59,7 @@ table {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 2s linear;
+    animation: App-logo-spin infinite 0s linear;
   }
 }
 .Nav{
@@ -142,6 +142,7 @@ table {
   width: 5em;
   margin: .5em;
   padding: .5em;
+  margin-bottom:1em;
 }
 
 @keyframes App-logo-spin {
