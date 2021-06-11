@@ -1,7 +1,7 @@
 import './App.css';
 import { Switch, Route, Link } from "react-router-dom"; 
 import Home from './pages/Home'
-import Resume from './pages/AboutMe'
+import AboutMe from './pages/AboutMe'
 import Notes from './pages/Graphics'
 
 
@@ -22,7 +22,7 @@ function App() {
       </Route>
 
       <Route path="/AboutMe">
-        <Resume/>
+        <AboutMe/>
       </Route>
 
       <Route path="/">
