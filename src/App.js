@@ -31,9 +31,9 @@ function App() {
     </Switch>
 
     <div className="Social">
-      <a href="https://www.linkedin.com/in/vlnce" rel="noreferrer" target="_blank">linkedin</a>  
-      <a href="https://github.com/vinceryangarcia" rel="noreferrer" target="_blank">github</a>  
-      <a href="https://behance.net/vlnce" rel="noreferrer" target="_blank">behance</a>   
+      <a href="https://www.linkedin.com/in/vlnce" rel="noreferrer" target="_blank">Linkedin</a>  
+      <a href="https://github.com/vinceryangarcia" rel="noreferrer" target="_blank">Github</a>  
+      <a href="https://behance.net/vlnce" rel="noreferrer" target="_blank">Behance</a>   
     </div>
   </>
   );
