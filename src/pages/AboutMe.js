@@ -8,7 +8,7 @@ export default function Resume(props){
     <>
     <Box>
         <Content>
-            <center>I'm <b>awesome.</b></center>
+            <center>I'm <b>awesome</b></center>
         </Content>
     </Box>
     </>    
