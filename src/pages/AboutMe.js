@@ -8,7 +8,7 @@ export default function Resume(props){
     <>
     <Box>
         <Content>
-            I'm fucking awesome.
+            I'm fucking <b>awesome.</b>
         </Content>
     </Box>
     </>    
