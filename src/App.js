@@ -2,20 +2,22 @@ import './App.css';
 import { Switch, Route, Link } from "react-router-dom"; 
 import Home from './pages/Home'
 import Resume from './pages/Resume'
-import Notes from './pages/Notes'
+import Notes from './pages/Graphics'
 
 
 function App() {
   return (
   <>
-    <div className="App">
-      <Link to="/">Home  </Link>
-      <Link to="Resume">  Resume</Link> 
-      <Link to="Notes"> Notes</Link>
-  </div>
 
+    <div className="Nav">
+      <Link to="/">Home</Link>
+      <Link to="Resume">Resume</Link> 
+      <Link to="Notes">Graphics</Link>
+    </div>
+  
+  
     <Switch>
-    <Route path="/Notes">
+      <Route path="/Notes">
         <Notes/>
       </Route>
 
@@ -27,6 +29,12 @@ function App() {
         <Home />
       </Route>
     </Switch>
+
+    <div className="Social">
+      <a href="https://www.linkedin.com/in/vlnce" rel="noreferrer" target="_blank">linkedin</a>  
+      <a href="https://github.com/vinceryangarcia" rel="noreferrer" target="_blank">github</a>  
+      <a href="https://behance.net/vlnce" rel="noreferrer" target="_blank">behance</a>   
+    </div>
   </>
   );
 }
