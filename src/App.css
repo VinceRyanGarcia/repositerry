@@ -25,7 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-}
+    background-color:#282c34;
+  }
 ol, ul {
     list-style: none;
 }
@@ -50,7 +51,6 @@ table {
   text-decoration: none;
   font-family:arial;
   background-color:#282c34;
-  height:100vh;
 }
 .App-logo {
   height: 40vmin;
