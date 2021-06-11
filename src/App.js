@@ -2,7 +2,7 @@ import './App.css';
 import { Switch, Route, Link } from "react-router-dom"; 
 import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
-import Notes from './pages/Graphics'
+import Graphics from './pages/Graphics'
 
 
 function App() {
@@ -12,13 +12,13 @@ function App() {
     <div className="Nav">
       <Link to="/">Home</Link>
       <Link to="AboutMe">About Me</Link> 
-      <Link to="Notes">Graphics</Link>
+      <Link to="Graphics">Graphics</Link>
     </div>
   
   
     <Switch>
-      <Route path="/Notes">
-        <Notes/>
+      <Route path="/Graphics">
+        <Graphics/>
       </Route>
 
       <Route path="/AboutMe">
