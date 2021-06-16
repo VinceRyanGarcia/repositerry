@@ -122,8 +122,8 @@ table {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 375px) {
   .BiggerDiv { 
-    margin-top:-210px;
+    margin-top:-220px;
   }
 }
