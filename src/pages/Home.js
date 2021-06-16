@@ -18,14 +18,16 @@ export default function Home(props){
                 <img src={logo} className="App-logo" alt="lol" />
             </div>
             
-            <div className="Vince">
-                <div className="Vince1">i'm vince</div>
-            </div>
+            <div className="BiggerDiv">
+                <div className="Vince">
+                    <div className="Vince1">i'm vince</div>
+                </div>
 
-            <div className="Social">
-                <a href="https://www.linkedin.com/in/vlnce">linkedin</a>
-                <a href="https://www.behance.net/vlnce">behance</a>
-                <a href="https://www.github.com/vinceryangarcia">github</a>
+                <div className="Social">
+                    <a href="https://www.linkedin.com/in/vlnce">linkedin</a>
+                    <a href="https://www.behance.net/vlnce">behance</a>
+                    <a href="https://www.github.com/vinceryangarcia">github</a>
+                </div>
             </div>
         </div>
     </>    
