@@ -64,6 +64,7 @@ table {
 }
 
 .Spin{
+  display:flex;
   height:7vh;
   z-index:-1;
 }
