@@ -13,21 +13,17 @@ export default function Home(props){
         
     <>
         <div className="App">
-            <div className="Hello">
-                <div className="Spin">
-                    <img src={logo} className="App-logo" alt="lol" /><br></br>
-                </div>
-                <div className="Vince">
-                yo! i'm vince
-                {/* <button onClick={() => alert('please hire me.')} type="button">
-      click here
-    </button> */}
-                </div>  
+            
+            <div className="Spin">
+                <img src={logo} className="App-logo" alt="lol" /><br></br>
+            </div>
+            
+            <div className="Vince">
+                <div className="Vince1">i'm vince</div>
             </div>
 
-
             <div className="Social">
-                <a href="https://www.linkedin.com/in/vlnce">linkedin</a><br></br><br></br>
+                <a href="https://www.linkedin.com/in/vlnce">linkedin</a>
                 <a href="https://www.behance.net/vlnce">behance</a>
                 <a href="https://www.github.com/vinceryangarcia">github</a>
             </div>
