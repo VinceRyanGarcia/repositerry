@@ -59,6 +59,7 @@ div {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 15s linear;
+    height:500px;
   }
 }
 
@@ -67,7 +68,7 @@ div {
   justify-content:Center;
 }
 .BiggerDiv{
-  margin-top:-270px;
+  margin-top:-350px;
 }
 .Vince{
   display:Flex;
