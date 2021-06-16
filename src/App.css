@@ -31,7 +31,7 @@ ol, ul {
     list-style: none;
 }
 blockquote, q {
-    quotes: none;
+    quotes: none; 
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -49,6 +49,7 @@ div {
   display:flex;
   flex-direction:column;
   text-align: center;
+}
 .App-logo {
   pointer-events: none;
   width:500px;
