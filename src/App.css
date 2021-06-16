@@ -49,11 +49,6 @@ div {
   display:flex;
   flex-direction:column;
   text-align: center;
-  text-decoration: none;
-  font-family:arial;
-  height:auto;
-  width:auto;
-}
 .App-logo {
   pointer-events: none;
   width:500px;
