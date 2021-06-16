@@ -9,11 +9,11 @@ function App() {
   return (
   <>
 
-    <div className="Nav">
+    {/* <div className="Nav">
       <Link to="/">Home</Link>
       <Link to="AboutMe">About Me</Link> 
       <Link to="Graphics">Graphics</Link>
-    </div>
+    </div> */}
   
   
     <Switch>
