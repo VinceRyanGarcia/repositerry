@@ -15,7 +15,6 @@ function App() {
       <Link to="Graphics">Graphics</Link>
     </div> */}
   
-  
     <Switch>
       <Route path="/Graphics">
         <Graphics/>
