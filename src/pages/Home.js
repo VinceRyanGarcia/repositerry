@@ -20,7 +20,7 @@ export default function Home(props){
             
             <div className="BiggerDiv">
                 <div className="Vince">
-                    <div className="Vince1">i'm vince</div>
+                    <div className="Vince1">vince</div>
                 </div>
 
                 <div className="Social">
