@@ -1,5 +1,6 @@
 import React from 'react';
 import lol from '../images/lol.jpg';
+import logo from '../images/logo.svg';
 
 export default function Home(props){
     
@@ -14,12 +15,13 @@ export default function Home(props){
         <div className="App">
             <div className="Hello">
                 <div className="Spin">
-                    <img src={lol} className="App-logo" alt="lol" /><br></br>
+                    <img src={logo} className="App-logo" alt="lol" /><br></br>
                 </div>
                 <div className="Vince">
-                <button onClick={() => alert('please hire me.')} type="button">
+                yo! i'm vince
+                {/* <button onClick={() => alert('please hire me.')} type="button">
       click here
-    </button>
+    </button> */}
                 </div>  
             </div>
 
