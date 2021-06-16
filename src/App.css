@@ -50,87 +50,47 @@ table {
   text-align: center;
   text-decoration: none;
   font-family:arial;
-  background-color:#282c34;
+  /* background-color:#282c34; */
 }
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
+  width:500px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 2s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
-.Nav{
-  display: flex;
-  justify-content:flex-end;
-  font-weight:bold;
-  font-family:Arial;
-  color:white;
-  background-color:#282c34;
-  
-}
-.Nav a{
-  background-color:#61dafb;
-  color:white;
-  text-align:center;
-  text-decoration: none;
-  font-size:1em;
-  width: 5em;
-  margin: .5em;
-  padding: .5em;
-}
 
-.Hello {
-  color:White;
+.Spin{
+  height:7vh;
+  z-index:-1;
+}
+.Vince{
+  display:Flex;
+  justify-content:center;
+  justify-items:center;
+  margin-top:5vh;
+  font-size:1.2em;
+  color:black;
   font-family:arial;
   font-size:3em;
   font-weight:bold;
-  margin-bottom:.4vh;
-
 }
-
-.Hello b{
-  color: #61dafb;
-  
-}
-.AboutMe {
-  display:Flex;
+.Vince1{
   justify-content:center;
-  font-size:1.2em;
-  text-align:left;
-  color:white;
-  margin-left:.5em;
-  margin-right:.5em;
-  margin-bottom:30vh;
-  BACKGROUND-COLOR:RED;
+  background-color:white;
+  width:320px;
 }
 
-.AM1{
-  text-align:center;
-  width:70%;
-}
-
-.Vince{
-  margin-top:5vh;
-}
-.Footer {
-  display: flex;
-  justify-content:center;
-  font-size:2em;
-  color:white;
-  font-family:arial;
-  font-weight:bold;
-  background-color:#282c34;
-}
 .Social {
   display: flex;
   justify-content:center;
   font-weight:bold;
   font-family:Arial;
   color:white;
-  background-color:#282c34;
+  /* background-color:#282c34; */
   
 }
 .Social a{
