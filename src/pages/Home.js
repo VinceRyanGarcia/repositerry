@@ -2,6 +2,11 @@ import React from 'react';
 import lol from '../images/lol.jpg';
 
 export default function Home(props){
+    
+    function showAlert() {
+        var myText = "This can be whatever text you like!";
+        alert (myText);
+    }
 
     return(
         
@@ -12,20 +17,18 @@ export default function Home(props){
                     <img src={lol} className="App-logo" alt="lol" /><br></br>
                 </div>
                 <div className="Vince">
-                    <h1>Hi, I'm <b>Vince</b>!</h1>
-                </div>
+                <button onClick={() => alert('please hire me.')} type="button">
+      click here
+    </button>
+                </div>  
             </div>
 
-            <div className="AboutMe">
-                <div className="AM1">
-                    Fullstack Web Developer and Graphic Designer<br></br>
-                </div>
-            </div>
 
-            <div>
-                
+            <div className="Social">
+                <a href="https://www.linkedin.com/in/vlnce">linkedin</a><br></br><br></br>
+                <a href="https://www.behance.net/vlnce">behance</a>
+                <a href="https://www.github.com/vinceryangarcia">github</a>
             </div>
-            
         </div>
     </>    
     )
