@@ -50,11 +50,11 @@ div {
   flex-direction:column;
   text-align: center;
   width:100%;
-  height:100
+  height:100%;
 }
 .App-logo {
   pointer-events: none;
-  width:500px;
+  width:380px;
 
 }
 
@@ -82,15 +82,14 @@ div {
   font-family:arial;
   font-size:3em;
   font-weight:bold;
-  z-index:2;
+  z-index:1;
 }
 .Vince1{
   justify-content:center;
   background-color:white;
   padding-left: 2.05em;
   padding-right: 2.05em;
-
-  z-index:2;
+  z-index:1;
 }
 
 .Social {
