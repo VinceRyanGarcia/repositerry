@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     background-color:#282c34;
+    overflow-x: hidden !important;
   }
 ol, ul {
     list-style: none;
@@ -42,7 +43,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+div {
+  box-sizing: border-box;
+  }
 .App {
   display:flex;
   flex-direction:column;
@@ -50,11 +53,13 @@ table {
   text-decoration: none;
   font-family:arial;
   height:100vh;
-  /* background-color:#282c34; */
+  width:auto;
+  background-color:Red;
 }
 .App-logo {
   pointer-events: none;
   width:500px;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
