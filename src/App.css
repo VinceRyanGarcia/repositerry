@@ -49,6 +49,8 @@ div {
   display:flex;
   flex-direction:column;
   text-align: center;
+  width:100%;
+  height:100
 }
 .App-logo {
   pointer-events: none;
