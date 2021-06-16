@@ -15,7 +15,7 @@ export default function Home(props){
         <div className="App">
             
             <div className="Spin">
-                <img src={logo} className="App-logo" alt="lol" /><br></br>
+                <center><img src={logo} className="App-logo" alt="lol" /></center>
             </div>
             
             <div className="Vince">
