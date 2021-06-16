@@ -65,8 +65,10 @@ table {
 
 .Spin{
   display:flex;
-  height:7vh;
-  z-index:-1;
+  justify-content:Center;
+}
+.BiggerDiv{
+  margin-top:-270px;
 }
 .Vince{
   display:Flex;
@@ -78,11 +80,14 @@ table {
   font-family:arial;
   font-size:3em;
   font-weight:bold;
+  z-index:2;
 }
 .Vince1{
   justify-content:center;
   background-color:white;
   width:322px;
+  padding-top:-45px;
+  z-index:2;
 }
 
 .Social {
@@ -91,6 +96,7 @@ table {
   font-weight:bold;
   font-family:Arial;
   color:white;
+  padding-top:-10vh;
   /* background-color:#282c34; */
   
 }
@@ -104,6 +110,7 @@ table {
   margin: .5em;
   padding: .5em;
   margin-bottom:1em;
+  z-index:2;
 }
 
 @keyframes App-logo-spin {
