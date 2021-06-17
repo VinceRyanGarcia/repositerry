@@ -61,11 +61,11 @@ div {
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 15s linear;
-    height:500px;
-  }
+
+.App-logo {
+  animation: App-logo-spin infinite 15s linear;
+  height:290px;
+  width:290px;
 }
 
 .Spin{
@@ -73,7 +73,7 @@ div {
   justify-content:Center;
 }
 .BiggerDiv{
-  margin-top:-350px;
+  margin-top:-250px;
 }
 .Vince{
   display:Flex;
@@ -107,7 +107,7 @@ div {
   
 }
 .Social a{
-  background-color:#61dafb;
+  background-color:#ee61fbc6;
   color:white;
   text-align:center;
   text-decoration: none;
