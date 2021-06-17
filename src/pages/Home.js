@@ -4,10 +4,7 @@ import logo from '../images/logo.svg';
 
 export default function Home(props){
     
-    function showAlert() {
-        var myText = "This can be whatever text you like!";
-        alert (myText);
-    }
+  
 
     return(
         
