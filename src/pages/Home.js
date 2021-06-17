@@ -25,6 +25,10 @@ export default function Home(props){
                     <a href="https://www.behance.net/vlnce">behance</a>
                     <a href="https://www.github.com/vinceryangarcia">github</a>
                 </div>
+
+                <div className="Vince">
+                    i enjoy learning.
+                </div>
             </div>
         </div>
     </>    
