@@ -4,10 +4,7 @@ import logo from '../images/logo.svg';
 
 export default function Home(props){
     
-    function showAlert() {
-        var myText = "This can be whatever text you like!";
-        alert (myText);
-    }
+  
 
     return(
         
@@ -15,7 +12,7 @@ export default function Home(props){
         <div className="App">
             
             <div className="Spin">
-                <img src={logo} className="App-logo" alt="lol" />
+                <center><img src={logo} className="App-logo" alt="lol" /></center>
             </div>
             
             <div className="BiggerDiv">
