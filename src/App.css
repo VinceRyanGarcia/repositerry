@@ -124,6 +124,16 @@ div {
   border: 3.5px solid black;
 }
 
+.Social1 {
+  display: flex;
+  justify-content:center;
+  font-weight:bold;
+  font-family:Arial;
+  color:white;
+  padding-top:-10vh;
+  z-index:1;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

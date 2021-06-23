@@ -1,6 +1,8 @@
 import React from 'react';
 import lol from '../images/lol.jpg';
 import logo from '../images/logo.svg';
+import ReactPlayer from 'react-player'
+
 
 export default function Home(props){
     
@@ -29,6 +31,18 @@ export default function Home(props){
                     <a href="https://www.github.com/vinceryangarcia">github</a>
                 </div>
                 
+                {/* <div className="Social1">
+                <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing='true' controls='true' muted='true' loop='true' />  
+                </div> */}
+
+                <div className="BiggerDiv1">
+                    <div className="Vince">
+                        <div className="Vince1">
+                        current work(s) in progress:<br></br>
+                        <a href="https://serene-wescoff-c06fcd.netlify.app/">Awp</a>    
+                        </div> 
+                    </div>
+                </div>
             </div>
         </div>
     </>    
