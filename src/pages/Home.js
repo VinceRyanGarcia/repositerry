@@ -44,7 +44,7 @@ export default function Home(props){
                         <br></br>
                         <a href="https://github.com/VinceRyanGarcia/practice0624">source</a>
                         <a href="https://cranky-tereshkova-ef389c.netlify.app/">live preview</a>
-                        <a href="https://app.netlify.com/sites/serene-wescoff-c06fcd"><strike>first version preview</strike></a>   
+                        <a href="https://serene-wescoff-c06fcd.netlify.app/"><strike>first version preview</strike></a>   
                         </div> 
                     </div>
                 </div>
