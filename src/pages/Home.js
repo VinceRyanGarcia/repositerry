@@ -35,7 +35,7 @@ export default function Home(props){
                 <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing='true' controls='true' muted='true' loop='true' />  
                 </div> */}
 
-                <div className="BiggerDiv1">
+                {/* <div className="BiggerDiv1">
                     <div className="Vince">
                         <div className="Vince1">
                         current work(s) in progress:<br></br>
@@ -47,7 +47,7 @@ export default function Home(props){
                         <a href="https://serene-wescoff-c06fcd.netlify.app/"><strike>first version preview</strike></a>   
                         </div> 
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </>    
