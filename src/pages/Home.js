@@ -39,7 +39,12 @@ export default function Home(props){
                     <div className="Vince">
                         <div className="Vince1">
                         current work(s) in progress:<br></br>
-                        <a href="https://serene-wescoff-c06fcd.netlify.app/">Awp</a>    
+                        website for friend
+                        
+                        <br></br>
+                        <a href="https://github.com/VinceRyanGarcia/practice0624">source</a>
+                        <a href="https://cranky-tereshkova-ef389c.netlify.app/">live preview</a>
+                        <a href="https://app.netlify.com/sites/serene-wescoff-c06fcd"><strike>first version preview</strike></a>   
                         </div> 
                     </div>
                 </div>
