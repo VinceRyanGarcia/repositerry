@@ -35,19 +35,14 @@ export default function Home(props){
                 <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing='true' controls='true' muted='true' loop='true' />  
                 </div> */}
 
-                {/* <div className="BiggerDiv1">
+                <div className="BiggerDiv1">
                     <div className="Vince">
                         <div className="Vince1">
-                        current work(s) in progress:<br></br>
-                        website for friend
-                        
-                        <br></br>
-                        <a href="https://github.com/VinceRyanGarcia/practice0624">source</a>
-                        <a href="https://cranky-tereshkova-ef389c.netlify.app/">live preview</a>
-                        <a href="https://serene-wescoff-c06fcd.netlify.app/"><strike>first version preview</strike></a>   
+                        <h1>blog</h1>
+                        <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">Family Promise - Spokane</a>
                         </div> 
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     </>    
