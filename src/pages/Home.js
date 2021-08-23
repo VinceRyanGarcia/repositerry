@@ -39,7 +39,7 @@ export default function Home(props){
                 <div className="BiggerDiv1">
                     <div className="Vince">
                         <div className="Vince1">
-                        <h1>black belt in google-fu</h1>
+                        <h1>has a black belt in google-fu</h1>
                         </div> 
 
                         <div className="Vince1">
