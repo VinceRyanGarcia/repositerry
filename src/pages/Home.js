@@ -29,6 +29,7 @@ export default function Home(props){
                     <a href="https://www.linkedin.com/in/vlnce">linkedin</a>
                     <a href="https://www.behance.net/vlnce">behance</a>
                     <a href="https://www.github.com/vinceryangarcia">github</a>
+                    <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">resume</a>
                 </div>
                 
                 {/* <div className="Social1">
@@ -38,8 +39,11 @@ export default function Home(props){
                 <div className="BiggerDiv1">
                     <div className="Vince">
                         <div className="Vince1">
-                        <h1>blog</h1>
-                        <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">Family Promise - Spokane</a>
+                        <h1>black belt in google-fu</h1>
+                        </div> 
+
+                        <div className="Vince1">
+                        <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">Blog: Family Promise - Spokane</a>
                         </div> 
                     </div>
                 </div>
