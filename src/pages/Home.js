@@ -27,8 +27,9 @@ export default function Home(props){
 
                 <div className="Social">
                     <a href="https://www.linkedin.com/in/vlnce">linkedin</a>
-                    <a href="https://www.behance.net/vlnce">behance</a>
                     <a href="https://www.github.com/vinceryangarcia">github</a>
+                    <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">blog</a>
+                    <a href="https://www.behance.net/vlnce">behance</a>
                     <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">resume</a>
                 </div>
                 
@@ -36,17 +37,13 @@ export default function Home(props){
                 <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing='true' controls='true' muted='true' loop='true' />  
                 </div> */}
 
-                <div className="BiggerDiv1">
+                {/* <div className="BiggerDiv1">
                     <div className="Vince">
                         <div className="Vince1">
-                        <h1>has a black belt in google-fu</h1>
-                        </div> 
-
-                        <div className="Vince1">
-                        <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">Blog: Family Promise - Spokane</a>
+                        <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">most recent medium blog</a>
                         </div> 
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </>    
