@@ -1,7 +1,7 @@
 import React from 'react';
 import lol from '../images/lol.jpg';
 import logo from '../images/logo.svg';
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 
 
 export default function Home(props){
@@ -28,7 +28,7 @@ export default function Home(props){
                 <div className="Social">
                     <a href="https://www.linkedin.com/in/vlnce">linkedin</a>
                     <a href="https://www.github.com/vinceryangarcia">github</a>
-                    <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">blog</a>
+                    {/* <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">blog</a> */}
                     <a href="https://www.behance.net/vlnce">behance</a>
                     <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">resume</a>
                 </div>
@@ -44,7 +44,9 @@ export default function Home(props){
                         </div> 
                     </div>
                 </div> */}
+    
             </div>
+          
         </div>
     </>    
     )
