@@ -29,6 +29,7 @@ export default function Home(props){
                     <a href="https://www.linkedin.com/in/vlnce">linkedin</a>
                     <a href="https://www.github.com/vinceryangarcia">github</a>
                     {/* <a href="https://medium.com/@vinceryangarcia/my-labs-learning-experience-4ed1585deddf">blog</a> */}
+                    {/* testing */}
                     <a href="https://www.behance.net/vlnce">behance</a>
                     <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">resume</a>
                 </div>
